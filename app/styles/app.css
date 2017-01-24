@@ -1,0 +1,25 @@
+.ImagesList{
+	top: 100px;
+    position: absolute;
+}
+.inputElement{
+	    width: 90%;
+    
+
+    padding: 1%;
+    align-self: center;
+    align-content: center;
+    margin-left: 5%;
+    text-align: center;
+
+}
+.searchButton{
+	    margin-left: 30%;
+    width: 40%;
+    margin-top: 1%;
+    height: 25px;
+    margin-bottom: 1%;
+}
+.imageSingle{
+	cursor: pointer;
+}

@@ -1,0 +1,19 @@
+
+{{input type=text class="inputElement" placeholer="search for any photo" key-up="updateSearchText"}}
+<button {{action "loadnewresults"}} class="searchButton">
+
+Load new Results!!
+</button>
+
+
+<div class="ImagesList">
+
+{{#each  photoUrls as | url index|}}
+	<img src={{url}}  class="imageSingle" {{action "addToFavourite" index}}/> 
+{{else}}
+    No images Found!!
+{{/each}}
+</div>
+
+
+{{#link-to "favourites"}} View Favorite Photos {{/link-to}}
